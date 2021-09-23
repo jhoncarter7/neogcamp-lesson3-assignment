@@ -3,14 +3,13 @@
 
 
 
-@media (max-width: 900px){ 
+
 body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-   
+    margin: 0px auto;
+  max-width: 85%;
+  width: 100%;
 }
-}
+
 body{
     font-family: 'Koh Santepheap', cursive;
 }
@@ -169,8 +168,8 @@ a:hover {
 
  .fa {
     padding: 20px;
-    font-size: 1px;
-    width: 30px;
+    font-size: -xx-small;
+    width: 20px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
@@ -193,4 +192,24 @@ a:hover {
   .fa-linkedin {
     background: #007bb5;
     color: rgba(248, 237, 237, 0.863);
+  }
+
+
+  
+@media  (max-width: 700px) {
+    body {
+      max-width: 95%;
+      width: 100%;
+    }
+
+    .fa {
+        padding: 7px;
+    }
+  
+    .navigation .details li {
+      display: inline;
+      padding: .5rem;
+    }
+  
+    
   }
