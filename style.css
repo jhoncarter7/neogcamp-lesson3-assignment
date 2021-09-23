@@ -1,0 +1,196 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Koh+Santepheap&display=swap');
+
+
+
+@media (max-width: 900px){ 
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+   
+}
+}
+body{
+    font-family: 'Koh Santepheap', cursive;
+}
+a:hover {
+    background-color: rgb(212, 57, 57);
+}
+/* navigation style */
+.navigation{
+    background-color: #FCA5A5;
+   border-radius: .5rem;
+   font-weight: bold;
+ margin-left: 2vh;
+ margin-right: 4vh; 
+  
+}
+.navigation h1{
+    padding-top: 1rem;
+   padding-left: 1rem;
+    margin-top: 0;
+      
+}
+.navigation .details li{
+    display: inline-block;
+    padding: 1rem;  
+}
+.navigation .details {
+    text-align: right;
+    font-size: 19px;
+    margin:.6rem 1rem;    
+}
+.navigation .home{ 
+        text-decoration: none;
+        color: aliceblue;     
+}
+.navigation .projects{
+    text-decoration: none;
+    color: aliceblue;
+    
+}
+.navigation .blogs{
+    text-decoration: none;
+    color: aliceblue;   
+}
+
+/* image style */
+
+.image{
+    padding: 2rem;
+    padding-left: 5rem;
+}
+
+#size{
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+.image h1{
+    color: rgb(179, 83, 15);
+    text-align: center;
+}
+
+.image h1 span{
+    color: slateblue;
+}
+
+.section-tech{
+    background-color: rgb(238, 224, 220);
+    text-align: center;
+    padding: 4vh;
+    margin:.6rem 1rem;
+    border-radius: .5rem; 
+   
+}
+
+#section-proj {
+       
+    text-align: center;
+    padding: 4vh;
+    margin:.6rem 1rem;  
+    
+
+}
+
+#section-proj a{
+    background-color: #FCA5A5;
+    padding: 1vh;
+    border-radius: 3vh;
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    font-size: 18px;
+   
+}
+#section-proj a:hover {
+    background-color: white;
+} 
+
+#section-blog{
+    text-align: center;
+    padding: 4vh;
+    margin:.6rem 1rem;
+}
+
+#section-blog a{
+    background-color: #FCA5A5;
+    padding: 1vh;
+    border-radius: 3vh;
+    text-decoration: none;
+    color: rgb(148, 8, 36);
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+#section-blog a:hover {
+    background-color: white;
+} 
+
+.social{
+    background-color: #FCA5A5;
+    border-radius: .5rem;
+    font-weight: bold;
+  margin-left: 2vh;
+  margin-right: 4vh; 
+  text-align: center;
+}
+
+.social .media{
+    text-align: center;
+}
+.social .media li{
+    display: inline-block;
+    padding: 2vh;
+    
+}
+/* .social .git{
+    color: rgb(182, 37, 12);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.social .twit{
+    color: rgb(182, 37, 12);
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.social .linke{
+    color: rgb(182, 37, 12);
+    text-decoration: none;
+    font-size: 19px;
+} */
+
+
+ .fa {
+    padding: 20px;
+    font-size: 1px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-github {
+    background: #55ACEE;
+    color: rgba(238, 223, 223, 0.89);
+  }
+
+  .fa-twitter {
+    background: #007bb5;
+    color: rgba(231, 214, 214, 0.877);
+  }
+  .fa-linkedin {
+    background: #007bb5;
+    color: rgba(248, 237, 237, 0.863);
+  }
