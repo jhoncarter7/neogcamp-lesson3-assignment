@@ -42,8 +42,8 @@ a:hover {
 }
 .navigation .home{ 
         text-decoration: none;
-        color: aliceblue;     
-}
+        color: aliceblue; 
+}     
 .navigation .projects{
     text-decoration: none;
     color: aliceblue;
@@ -213,3 +213,52 @@ a:hover {
   
     
   }
+
+
+  /* ///blogs/// */
+
+  
+.h1{
+    color: rgb(179, 83, 15);
+    text-align: center;
+}
+
+.h1 .span{
+    color: slateblue;
+}
+
+.first {
+    text-align: center;
+  background-color: rgba(231, 243, 243, 0.808);
+   border-radius: 2rem; 
+   padding: 1rem;
+}
+
+.first a {
+    text-decoration: none;
+    color: rgb(187, 57, 79);
+    background-color: rgb(230, 144, 172);
+    border-radius: .5rem;
+   padding: .5rem 1rem;
+  
+
+}
+
+
+
+.second {
+text-align: center;
+background-color: rgba(231, 243, 243, 0.808);
+   border-radius: 2rem; 
+   padding: 1rem;
+}
+
+.second a {
+    text-decoration: none;
+    color: rgb(187, 57, 79);
+    background-color: rgb(230, 144, 172);
+    border-radius: .5rem;
+   padding: .5rem 1rem;
+  
+
+}
